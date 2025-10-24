@@ -1,0 +1,11 @@
+{
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnSave": true
+    },
+    "editor.fontSize": 16,
+    "workbench.settings.applyToAllProfiles": [
+        
+    ],
+}

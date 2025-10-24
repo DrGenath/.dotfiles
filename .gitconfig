@@ -1,0 +1,23 @@
+[include]
+    path = ~/.gitconfig.local
+
+[core]
+    editor = code --wait
+    excludesfile = ~/.gitignore
+[color]
+    diff = auto
+    status = auto
+    branch = auto
+    ui = true
+
+[help]
+    autocorrect = 1
+
+[init]
+    defaultBranch = main
+
+[pull]
+    rebase = true
+
+[credential]
+    helper = manager-core

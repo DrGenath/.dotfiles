@@ -1,0 +1,60 @@
+# =========================
+# OS / Explorer / Finder
+# =========================
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# =========================
+# Editoren & IDEs
+# =========================
+# VS Code – Ordner generell ignorieren, aber gängige Metadateien erlauben
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/
+
+# =========================
+# Logs & Temp
+# =========================
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+*.temp
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+.venv/
+venv/
+ENV/
+env/
+
+
+# =========================
+# Dotenv 
+# =========================
+*.env
+*.env.*
+!.env.example
+
+# =========================
+# Archive / Binär / Artefakte
+# =========================
+*.zip
+*.7z
+*.tar
+*.tar.gz
+*.rar
