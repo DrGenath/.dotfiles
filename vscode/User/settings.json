@@ -8,4 +8,8 @@
     "workbench.settings.applyToAllProfiles": [
         
     ],
+    "editor.formatOnSave": true,
+    "editor.fontFamily": "'Fira Code Light'",
+    "editor.fontLigatures": true,
+    "terminal.integrated.fontFamily": "monospace",
 }
